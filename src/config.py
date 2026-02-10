@@ -1,2 +1,6 @@
+from pathlib import Path
+
+
 class Config:
-    filepath = r'D:\Cement_Strength_model\data\raw\Concrete_Compressive_Strength.csv'
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    DATA_PATH = BASE_DIR / "data" / "raw" / "Concrete_Compressive_Strength.csv"
