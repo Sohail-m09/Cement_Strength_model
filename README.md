@@ -79,4 +79,4 @@ python main.py
 ## Insgihts 
 The analysis confirms that Cement Quantity and Age are the most significant predictors of concrete strength. Using the XGBoost model, we can predict the 28-day strength with 91% accuracy, allowing for better material planning and reduced waiting times in construction.
 
-CI configured to run main.py
+CI entry point: main.py
